@@ -1,0 +1,18 @@
+.paragraph{
+    margin-top: 1.5rem;
+    font-size: var(--text-regular);
+    color: var(--color-primary);
+    text-align: justify;
+}
+
+.workex{
+    margin-top: 1.5rem;
+}
+
+.projects{
+    margin-top: 1.5rem;
+}
+
+.profiles{
+    margin-top: 1.5rem;
+}

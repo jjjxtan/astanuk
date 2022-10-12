@@ -1,4 +1,5 @@
 import { ReactElement } from "react";
+import Image from "next/image";
 import { Aligner } from "../Common/Aligner/Aligner";
 import { Footer } from "../Common/Footer/Footer";
 import { Navigation } from "../Common/Navigation/Navigation";
@@ -103,6 +104,11 @@ export const Home = (): ReactElement => {
                             >
                                 {skill.name}
                             </a>
+                            <Image
+                                width={16}
+                                height={16}
+                                src="/Assets/top-right.svg"
+                                alt="logo"></Image>
                             {skill.description}
                         </p>
                     ))}
