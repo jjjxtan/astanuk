@@ -1,0 +1,29 @@
+.paragraph{
+    margin-top: 1.5rem;
+    font-size: var(--text-regular);
+    color: var(--color-primary);
+}
+
+.technologies{
+    margin-top: 1.5rem;
+}
+
+.skills{
+    font-family: Gilroy-Regular;
+    font-size: var(--text-regular);
+    color: var(--color-primary);
+    margin-bottom: 1rem;
+}
+
+.link{
+    font-family: Gilroy-Medium;
+    color: var(--color-link-blue);
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.connect{
+    margin-top: 1.5rem;
+}
