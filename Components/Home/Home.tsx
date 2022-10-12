@@ -83,7 +83,7 @@ export const Home = (): ReactElement => {
     return (
         <Aligner>
             <>
-                <NameTitle name="omkathe" page="| home" />
+                <NameTitle name="omkathe | " page="home" />
                 <Navigation />
                 <p className={classes.paragraph}>{text1}</p>
                 <p className={classes.paragraph}>{text2}</p>

@@ -4,3 +4,15 @@
     margin: auto;
     padding-top: 6rem;
 }
+
+@media screen and (max-width: 480px) {
+    .container{
+        width: 90vw;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 786px) {
+    .container{
+        width: 70vw;
+    }
+}

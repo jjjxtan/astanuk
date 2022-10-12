@@ -13,7 +13,11 @@
     font-size: var(--text-name-title);
 }
 
-
+@media screen and (max-width: 480px) {
+    .nameTitleContainer{
+        flex-direction: column;
+    }
+}
 /*Section Title*/
 .sectionTitle{
     font-family: Gilroy-Bold;

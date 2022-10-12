@@ -3,6 +3,7 @@
     list-style-type: none;
     font-family: Gilroy-Medium;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .listItem{
@@ -20,4 +21,10 @@
 .link:hover{
     color: var(--color-link-blue);
     text-decoration: underline;
+}
+
+@media screen and (max-width: 480px) {
+    .list{
+        justify-content: center;
+    }
 }
