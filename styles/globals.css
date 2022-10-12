@@ -16,6 +16,7 @@
 html,
 body {
   font-family: Gilroy-Regular;
+  color: var(--color-primary);
 }
 
 a {
