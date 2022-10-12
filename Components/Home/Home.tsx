@@ -113,7 +113,7 @@ export const Home = (): ReactElement => {
                         style={{ marginBottom: "1.5rem" }}
                         text="🔗 Connect With Me"
                     />
-                    <p className={classes.paragraph}>{text4}</p>
+                    <p className={classes.paragraph}>{text5}</p>
                     <SocialLinks style={{marginTop: "10px"}} links={links}/>
                 </div>
                 <Footer/>
