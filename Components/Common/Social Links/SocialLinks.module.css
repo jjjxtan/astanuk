@@ -1,0 +1,23 @@
+.list{
+    display: flex;
+    list-style-type: none;
+    font-family: Gilroy-Medium;
+    align-items: center;
+}
+
+.listItem{
+    margin-right: 6px;
+    display: flex;
+    align-items: center;
+}
+
+.link{
+    margin-left: 6px;
+    line-height: 2rem;
+    cursor: pointer;
+}
+
+.link:hover{
+    color: var(--color-link-blue);
+    text-decoration: underline;
+}

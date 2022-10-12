@@ -2,6 +2,7 @@ import { ReactElement } from "react";
 import { Aligner } from "../Common/Aligner/Aligner";
 import { Footer } from "../Common/Footer/Footer";
 import { Navigation } from "../Common/Navigation/Navigation";
+import { SocialLinks } from "../Common/Social Links/SocialLinks";
 import { NameTitle } from "../Common/Title/NameTitle";
 import { SectionTitle } from "../Common/Title/SectionTitle";
 import classes from "./Home.module.css";
@@ -36,6 +37,34 @@ const skills = [
         name: "MongoDB ",
         description: ": Simple, fast, scalable",
         url: "https://www.mongodb.com/",
+    },
+];
+
+const links = [
+    {
+        name: "LinkedIn |",
+        svg: "/Assets/linkedin.svg",
+        url: "https://www.linkedin.com/in/omkathe/",
+    },
+    {
+        name: "Dev.to |",
+        svg: "/Assets/dev-to.svg",
+        url: "#",
+    },
+    {
+        name: "Instagram |",
+        svg: "/Assets/instagram.svg",
+        url: "https://www.instagram.com/omkatheofficial/",
+    },
+    {
+        name: "Facebook |",
+        svg: "/Assets/facebook.svg",
+        url: "https://www.facebook.com/omisonline/",
+    },
+    {
+        name: "GitHub",
+        svg: "/Assets/github.svg",
+        url: "https://github.com/itsomkathe",
     },
 ];
 
@@ -85,6 +114,7 @@ export const Home = (): ReactElement => {
                         text="🔗 Connect With Me"
                     />
                     <p className={classes.paragraph}>{text4}</p>
+                    <SocialLinks style={{marginTop: "10px"}} links={links}/>
                 </div>
                 <Footer/>
             </>
