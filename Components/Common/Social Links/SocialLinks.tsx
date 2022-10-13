@@ -34,6 +34,7 @@ export const SocialLinks: FC<Props>  = ({links, style}): ReactElement => {
                         >
                             {link.name}
                         </a>
+                        {(index < links.length-1) && <span> | </span>}
                     </li>
                 ))}
             </ul>

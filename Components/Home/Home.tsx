@@ -43,22 +43,22 @@ const skills = [
 
 const links = [
     {
-        name: "LinkedIn |",
+        name: "LinkedIn",
         svg: "/Assets/linkedin.svg",
         url: "https://www.linkedin.com/in/omkathe/",
     },
     {
-        name: "Dev.to |",
+        name: "Dev.to",
         svg: "/Assets/dev-to.svg",
         url: "#",
     },
     {
-        name: "Instagram |",
+        name: "Instagram",
         svg: "/Assets/instagram.svg",
         url: "https://www.instagram.com/omkatheofficial/",
     },
     {
-        name: "Facebook |",
+        name: "Facebook",
         svg: "/Assets/facebook.svg",
         url: "https://www.facebook.com/omisonline/",
     },

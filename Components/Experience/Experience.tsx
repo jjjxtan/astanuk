@@ -9,17 +9,17 @@ import classes from "./Experience.module.css";
 
 const links = [
     {
-        name: "LeetCode |",
+        name: "LeetCode",
         svg: "/Assets/leetcode.svg",
         url: "https://leetcode.com/omkathe26/",
     },
     {
-        name: "GeeksForGeeks |",
+        name: "GeeksForGeeks",
         svg: "/Assets/GeeksforGeeks.svg",
         url: "https://auth.geeksforgeeks.org/user/omkathe26/practice",
     },
     {
-        name: "Codeforces |",
+        name: "Codeforces",
         svg: "/Assets/code-forces.svg",
         url: "https://codeforces.com/profile/omkathe",
     },
