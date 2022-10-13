@@ -12,6 +12,22 @@
 .projects{
     margin-top: 1.5rem;
 }
+.projectWrapper{
+    margin-top: 1rem;
+}
+.projectText{
+    margin-top: 1rem;
+    font-size: var(--text-regular);
+    color: var(--color-primary);
+    text-align: justify;
+}
+.techStack{
+    font-family: Gilroy-Medium;
+}
+.projectTitle{
+    font-family: Gilroy-Bold;
+    font-size: var(--text-subtitle);
+}
 
 .profiles{
     margin-top: 1.5rem;

@@ -1,10 +1,11 @@
-import { ReactElement } from "react";
+import { FC, ReactElement } from "react";
 import { Aligner } from "../Common/Aligner/Aligner";
 import { Footer } from "../Common/Footer/Footer";
 import { Navigation } from "../Common/Navigation/Navigation";
 import { SocialLinks } from "../Common/Social Links/SocialLinks";
 import { NameTitle } from "../Common/Title/NameTitle";
 import { SectionTitle } from "../Common/Title/SectionTitle";
+import { Project } from "./Project";
 import classes from "./Experience.module.css";
 
 const links = [
@@ -32,7 +33,41 @@ const text2 = "I’ve been coding since 2017. Currently, I’m pursuing Bachelor
 
 const text3 = "I’m not a competitive programmer, but I do like solving problems related to data structures and algorithms."
 
-export const Experience = (): ReactElement => {
+const text4 = "React.js, Redux, Express.js, MongoDB, WebRTC, Socket.io";
+
+const projects = [
+    {
+        name: "Voicey",
+        description: text2,
+        techStack:  text4,
+        links: [
+            {
+                name: "GitHub",
+                svg: "/Assets/github.svg",
+                url: "https://github.com/itsomkathe/Voicey",
+            },   
+        ]
+    },
+    {
+        name: "Snapsprout",
+        description: text2,
+        techStack:  text4,
+        links: [
+            {
+                name: "GitHub",
+                svg: "/Assets/github.svg",
+                url: "https://github.com/itsomkathe/snapsprout",
+            },
+            {
+                name: "Live",
+                svg: "/Assets/eye.svg",
+                url: "https://snapsprout.herokuapp.com/",
+            },   
+        ]
+    }
+];
+
+export const Experience: FC = (): ReactElement => {
     return (
         <Aligner>
             <>
@@ -51,6 +86,17 @@ export const Experience = (): ReactElement => {
                         text="🛠️ Projects"
                     />
                     <p className={classes.paragraph}>{text2}</p>
+                    {
+                        projects.map((project, index)=>(
+                            <Project 
+                                key={index}
+                                name={project.name}
+                                description={project.description}
+                                techStack={project.techStack}
+                                links={project.links}
+                            />
+                        ))
+                    }
                 </div>
                 <div className={classes.profiles}>
                     <SectionTitle

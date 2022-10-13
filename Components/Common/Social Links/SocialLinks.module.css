@@ -30,9 +30,3 @@
     line-height: 2rem;
     cursor: pointer;
 }
-
-@media screen and (max-width: 480px) {
-    .list{
-        justify-content: center;
-    }
-}
