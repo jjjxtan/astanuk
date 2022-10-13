@@ -10,14 +10,13 @@
 }
 
 .skills{
-    font-family: Gilroy-Regular;
     font-size: var(--text-regular);
     color: var(--color-primary);
     margin-bottom: 1rem;
 }
 
 .link{
-    font-family: Gilroy-Medium;
+    font-family: Gilroy-Bold;
     color: var(--color-link-blue);
 }
 
