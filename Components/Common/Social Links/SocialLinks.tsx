@@ -10,10 +10,11 @@ interface LinkFormat{
 
 interface Props{
     style?: CSSProperties,
-    links: LinkFormat[]
+    links: LinkFormat[],
+    isActive?: boolean
 }
 
-export const SocialLinks: FC<Props>  = ({links, style}): ReactElement => {
+export const SocialLinks: FC<Props>  = ({links, style, isActive}): ReactElement => {
     return (
         <>
             <ul style={style} className={classes.list}>
@@ -30,7 +31,7 @@ export const SocialLinks: FC<Props>  = ({links, style}): ReactElement => {
                             href={link.url}
                             target="_blank"
                             rel="noreferrer"
-                            className={classes.link}
+                            className={isActive ? classes.linkActive : classes.link}
                         >
                             {link.name}
                         </a>

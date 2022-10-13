@@ -23,6 +23,14 @@
     text-decoration: underline;
 }
 
+.linkActive{
+    color: var(--color-link-blue);
+    text-decoration: underline;
+    margin: 0 6px 0 6px;
+    line-height: 2rem;
+    cursor: pointer;
+}
+
 @media screen and (max-width: 480px) {
     .list{
         justify-content: center;
