@@ -10,7 +10,7 @@ interface LinkFormat{
 
 interface Props{
     style?: CSSProperties,
-    links: LinkFormat[],
+    links: LinkFormat[] | [],
     isActive?: boolean
 }
 
