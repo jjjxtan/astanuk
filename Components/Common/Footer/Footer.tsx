@@ -20,7 +20,7 @@ export const Footer = (): ReactElement => {
                 <span>
                     View Source on{" "}
                     <a
-                        href="/"
+                        href="https://github.com/itsomkathe/omkathe"
                         rel="noreferrer"
                         target="_blank"
                         className={classes.link}

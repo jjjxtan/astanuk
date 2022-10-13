@@ -6,6 +6,7 @@ import { SocialLinks } from "../Common/Social Links/SocialLinks";
 import { NameTitle } from "../Common/Title/NameTitle";
 import { SectionTitle } from "../Common/Title/SectionTitle";
 import { Project } from "./Project";
+import { WorkEx } from "./WorkEx";
 import classes from "./Experience.module.css";
 
 const links = [
@@ -67,6 +68,23 @@ const projects = [
     }
 ];
 
+const experience = [
+    {
+        company: "NavGurukul",
+        role: "Frontend Engineer Intern",
+        duration: "Since July 2022",
+        description: text2,
+        techStack:  text4,
+    },
+    {
+        company: "Bitsmith Technologies",
+        role: "Software Engineer Intern",
+        duration: "Jan 2022 - Mar 2022",
+        description: text2,
+        techStack:  text4,
+    },
+]
+
 export const Experience: FC = (): ReactElement => {
     return (
         <Aligner>
@@ -74,11 +92,12 @@ export const Experience: FC = (): ReactElement => {
                 <NameTitle name="omkathe | " page="experience" />
                 <Navigation/>
                 <p className={classes.paragraph}>{text1}</p>
-                <div className={classes.workex}>
+                <div className={classes.workexContainer}>
                     <SectionTitle
                         style={{ marginBottom: "1.5rem" }}
                         text="💼 Work Experience"
                     />
+                    <WorkEx experience={experience}/>
                 </div>
                 <div className={classes.projects}>
                     <SectionTitle
