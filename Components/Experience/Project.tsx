@@ -4,17 +4,11 @@ import { SocialLinks } from "../Common/Social Links/SocialLinks";
 import { Subtitle } from "../Common/Title/Subtitle";
 import classes from "./Experience.module.css";
 
-interface LinkFormat{
-    name: string,
-    svg: string,
-    url: string
-}
-
-interface ProjectProps{
+type ProjectProps = {
     name: string,
     description: string,
     techStack: string,
-    links?: LinkFormat[],
+    links?: ISocialLink[],
     key?: number
 }
 

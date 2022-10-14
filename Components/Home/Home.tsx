@@ -5,7 +5,7 @@ import { Footer } from "../Common/Footer/Footer";
 import { Navigation } from "../Common/Navigation/Navigation";
 import { SocialLinks } from "../Common/Social Links/SocialLinks";
 import { NameTitle } from "../Common/Title/NameTitle";
-import { SectionTitle } from "../Common/Title/Title";
+import { Title } from "../Common/Title/Title";
 import classes from "./Home.module.css";
 import { Paragraph } from "../Common/Paragraph/Paragraph";
 
@@ -91,10 +91,7 @@ export const Home = (): ReactElement => {
                 <Paragraph className={classes.paragraph}>{text2}</Paragraph>
                 <Paragraph className={classes.paragraph}>{text3}</Paragraph>
                 <div className={classes.technologies}>
-                    <SectionTitle
-                        style={{ marginBottom: "1.5rem" }}
-                        text="👨‍💻 Technologies"
-                    />
+                    <Title>👨‍💻 Technologies</Title>
                     {skills.map((skill, index) => (
                         <Paragraph key={index} className={classes.skills}>
                             <a
@@ -117,10 +114,7 @@ export const Home = (): ReactElement => {
                     <Paragraph>{text4}</Paragraph>
                 </div>
                 <div className={classes.connect}>
-                    <SectionTitle
-                        style={{ marginBottom: "1.5rem" }}
-                        text="🔗 Connect With Me"
-                    />
+                    <Title>🔗 Connect With Me</Title>
                     <Paragraph className={classes.paragraph}>{text5}</Paragraph>
                     <SocialLinks className={classes.socialLinks} links={links} />
                 </div>

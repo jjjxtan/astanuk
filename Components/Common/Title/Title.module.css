@@ -26,6 +26,7 @@
     font-family: Gilroy-Bold;
     color: var(--color-primary);
     font-size: var(--text-section-title);
+    margin-bottom: 1.5rem;
 }
 
 /*Subtitle*/

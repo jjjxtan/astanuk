@@ -4,7 +4,7 @@ import { Footer } from "../Common/Footer/Footer";
 import { Navigation } from "../Common/Navigation/Navigation";
 import { SocialLinks } from "../Common/Social Links/SocialLinks";
 import { NameTitle } from "../Common/Title/NameTitle";
-import { SectionTitle } from "../Common/Title/Title";
+import { Title } from "../Common/Title/Title";
 import classes from "./Experience.module.css";
 
 export const Blogs = (): ReactElement => {
