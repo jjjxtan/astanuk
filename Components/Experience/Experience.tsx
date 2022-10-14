@@ -4,7 +4,7 @@ import { Footer } from "../Common/Footer/Footer";
 import { Navigation } from "../Common/Navigation/Navigation";
 import { SocialLinks } from "../Common/Social Links/SocialLinks";
 import { NameTitle } from "../Common/Title/NameTitle";
-import { SectionTitle } from "../Common/Title/Title";
+import { Title } from "../Common/Title/Title";
 import { Paragraph } from "../Common/Paragraph/Paragraph";
 import { Project } from "./Project";
 import { WorkEx } from "./WorkEx";
@@ -96,17 +96,11 @@ export const Experience: FC = (): ReactElement => {
                 <Navigation />
                 <Paragraph>{text1}</Paragraph>
                 <div className={classes.workexContainer}>
-                    <SectionTitle
-                        style={{ marginBottom: "1.5rem" }}
-                        text="💼 Work Experience"
-                    />
+                    <Title>💼 Work Experience</Title>
                     <WorkEx experience={experience} />
                 </div>
                 <div className={classes.projects}>
-                    <SectionTitle
-                        style={{ marginBottom: "1.5rem" }}
-                        text="🛠️ Projects"
-                    />
+                    <Title>🛠️ Projects</Title>
                     <Paragraph>{text2}</Paragraph>
                     {projects.map((project, index) => (
                         <Project
@@ -119,10 +113,7 @@ export const Experience: FC = (): ReactElement => {
                     ))}
                 </div>
                 <div className={classes.profiles}>
-                    <SectionTitle
-                        style={{ marginBottom: "1.5rem" }}
-                        text="🏎️ Coding Profiles"
-                    />
+                    <Title>🏎️ Coding Profiles</Title>
                     <Paragraph>{text3}</Paragraph>
                     <SocialLinks className={classes.socialLinks} links={links} />
                 </div>
