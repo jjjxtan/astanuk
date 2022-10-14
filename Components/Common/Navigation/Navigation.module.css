@@ -1,3 +1,7 @@
+.navContainer{
+    margin-bottom: 1.5rem;
+}
+
 .list{
     list-style-type: none;
     display: flex;

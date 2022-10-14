@@ -87,9 +87,9 @@ export const Home = (): ReactElement => {
             <>
                 <NameTitle name="omkathe | " page="home" />
                 <Navigation />
-                <Paragraph className={classes.paragraph}>{text1}</Paragraph>
-                <Paragraph className={classes.paragraph}>{text2}</Paragraph>
-                <Paragraph className={classes.paragraph}>{text3}</Paragraph>
+                <Paragraph>{text1}</Paragraph>
+                <Paragraph>{text2}</Paragraph>
+                <Paragraph>{text3}</Paragraph>
                 <div className={classes.technologies}>
                     <Title>👨‍💻 Technologies</Title>
                     {skills.map((skill, index) => (
