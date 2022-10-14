@@ -1,33 +1,22 @@
-import { FC, ReactElement, CSSProperties } from "react";
+import { FC, ReactElement } from "react";
 import Image from "next/image";
 import classes from "./SocialLinks.module.css";
 
-interface LinkFormat{
-    name: string,
-    svg: string,
-    url: string
-}
-
-interface Props{
-    style?: CSSProperties,
-    links: LinkFormat[] | [],
-    isActive?: boolean,
-    className?: string
-}
-
-export const SocialLinks: FC<Props>  = ({links, style, isActive, className}): ReactElement => {
+export const SocialLinks: FC<SocialLinksProps>  = ({links, style, isActive, className}): ReactElement => {
     return (
         <>
             <ul style={style} className={`${classes.list} ${className}`}>
                 {links.map((link, index) => (
                     <li className={classes.listItem} key={index}>
-                        <Image
-                            width={16}
-                            height={16}
-                            className={classes.image}
-                            src={link.svg}
-                            alt="logo"
-                        ></Image>
+                        {link.svg &&
+                            <Image
+                                width={16}
+                                height={16}
+                                className={classes.image}
+                                src={link.svg}
+                                alt="logo"
+                            />
+                        }
                         <a
                             href={link.url}
                             target="_blank"

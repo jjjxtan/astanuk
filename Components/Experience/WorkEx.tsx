@@ -11,7 +11,7 @@ interface Experience{
     techStack: string
 }
 
-interface Props{
+type Props = {
     experience: Experience[] | []
 }
 
