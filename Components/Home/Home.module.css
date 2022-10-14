@@ -1,18 +1,9 @@
 .paragraph{
     margin-top: 1.5rem;
-    font-size: var(--text-regular);
-    color: var(--color-primary);
-    text-align: justify;
 }
 
 .technologies{
     margin-top: 1.5rem;
-}
-
-.skills{
-    font-size: var(--text-regular);
-    color: var(--color-primary);
-    margin-bottom: 1rem;
 }
 
 .link{
@@ -26,4 +17,8 @@
 
 .connect{
     margin-top: 1.5rem;
+}
+
+.socialLinks{
+    margin-top: 0.5rem;
 }

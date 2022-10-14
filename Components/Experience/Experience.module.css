@@ -5,9 +5,7 @@
     text-align: justify;
 }
 
-
 /*WORK EXPERIENCE SECTION*/
-
 
 .timelineContainer{
     position: relative;
@@ -78,12 +76,6 @@
 .projectWrapper{
     margin-top: 1rem;
 }
-.projectText{
-    margin-top: 1rem;
-    font-size: var(--text-regular);
-    color: var(--color-primary);
-    text-align: justify;
-}
 .techStack{
     font-family: Gilroy-Bold;
 }
@@ -93,4 +85,8 @@
 }
 .profiles{
     margin-top: 1.5rem;
+}
+
+.socialLinks{
+    margin-top: 0.5rem;
 }

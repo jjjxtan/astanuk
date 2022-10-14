@@ -11,13 +11,14 @@ interface LinkFormat{
 interface Props{
     style?: CSSProperties,
     links: LinkFormat[] | [],
-    isActive?: boolean
+    isActive?: boolean,
+    className?: string
 }
 
-export const SocialLinks: FC<Props>  = ({links, style, isActive}): ReactElement => {
+export const SocialLinks: FC<Props>  = ({links, style, isActive, className}): ReactElement => {
     return (
         <>
-            <ul style={style} className={classes.list}>
+            <ul style={style} className={`${classes.list} ${className}`}>
                 {links.map((link, index) => (
                     <li className={classes.listItem} key={index}>
                         <Image

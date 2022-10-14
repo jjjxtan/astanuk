@@ -1,4 +1,6 @@
 import { FC, ReactElement } from "react";
+import { Paragraph } from "../Common/Paragraph/Paragraph";
+import { Subtitle } from "../Common/Title/Subtitle";
 import classes from "./Experience.module.css";
 
 interface Experience{
@@ -19,14 +21,16 @@ export const WorkEx: FC<Props> = ({experience}):ReactElement => {
             {
                 experience.map((obj, index)=>(
                     <div className={classes.workex} key={index}>
-                        <h3 className={classes.companyName}>{obj.company}</h3>
+                        <Subtitle>
+                            {obj.company}
+                        </Subtitle>
                         <h6 className={classes.secondaryText}>{obj.role}</h6>
                         <h6 className={classes.secondaryText}>{obj.duration}</h6>
-                        <p className={classes.workDescription}>{obj.description}</p>
-                        <p className={classes.workDescription}>
+                        <Paragraph className={classes.workDescription}>{obj.description}</Paragraph>
+                        <Paragraph className={classes.workDescription}>
                             <span className={classes.techStack}>Tech Stack: </span>
                             {obj.techStack}
-                        </p>
+                        </Paragraph>
                         <span className={classes.circle} />
                     </div>
                 ))

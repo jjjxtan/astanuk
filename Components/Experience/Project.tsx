@@ -1,5 +1,7 @@
 import { FC, ReactElement } from "react";
+import { Paragraph } from "../Common/Paragraph/Paragraph";
 import { SocialLinks } from "../Common/Social Links/SocialLinks";
+import { Subtitle } from "../Common/Title/Subtitle";
 import classes from "./Experience.module.css";
 
 interface LinkFormat{
@@ -19,13 +21,17 @@ interface ProjectProps{
 export const Project: FC<ProjectProps> = ({name, description, techStack, links}):ReactElement => {
     return (
         <div className={classes.projectWrapper}>
-            <h3 className={classes.projectTitle}>{name}</h3>
-            <p className={classes.projectText}>{description}</p>
-            <p className={classes.projectText}>
+            <Subtitle>
+                {name}
+            </Subtitle>
+            <Paragraph>
+                {description}
+            </Paragraph>
+            <Paragraph>
                 <span className={classes.techStack}>Tech Stack: </span>
                 {techStack}
-            </p>
-            {links && <SocialLinks style={{marginTop: "0.5rem"}} isActive links={links}/>}
+            </Paragraph>
+            {links && <SocialLinks isActive links={links}/>}
         </div>
     );
 };

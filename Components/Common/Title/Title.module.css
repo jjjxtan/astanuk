@@ -1,3 +1,5 @@
+/*Name Title*/
+
 .nameTitleContainer{
     display: flex;
 }
@@ -18,9 +20,17 @@
         flex-direction: column;
     }
 }
-/*Section Title*/
+
+/*Title*/
 .sectionTitle{
     font-family: Gilroy-Bold;
     color: var(--color-primary);
     font-size: var(--text-section-title);
+}
+
+/*Subtitle*/
+
+.subTitle{
+    font-family: Gilroy-Bold;
+    font-size: var(--text-subtitle);
 }

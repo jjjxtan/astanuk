@@ -5,8 +5,9 @@ import { Footer } from "../Common/Footer/Footer";
 import { Navigation } from "../Common/Navigation/Navigation";
 import { SocialLinks } from "../Common/Social Links/SocialLinks";
 import { NameTitle } from "../Common/Title/NameTitle";
-import { SectionTitle } from "../Common/Title/SectionTitle";
+import { SectionTitle } from "../Common/Title/Title";
 import classes from "./Home.module.css";
+import { Paragraph } from "../Common/Paragraph/Paragraph";
 
 const skills = [
     {
@@ -86,16 +87,16 @@ export const Home = (): ReactElement => {
             <>
                 <NameTitle name="omkathe | " page="home" />
                 <Navigation />
-                <p className={classes.paragraph}>{text1}</p>
-                <p className={classes.paragraph}>{text2}</p>
-                <p className={classes.paragraph}>{text3}</p>
+                <Paragraph className={classes.paragraph}>{text1}</Paragraph>
+                <Paragraph className={classes.paragraph}>{text2}</Paragraph>
+                <Paragraph className={classes.paragraph}>{text3}</Paragraph>
                 <div className={classes.technologies}>
                     <SectionTitle
                         style={{ marginBottom: "1.5rem" }}
                         text="👨‍💻 Technologies"
                     />
                     {skills.map((skill, index) => (
-                        <p key={index} className={classes.skills}>
+                        <Paragraph key={index} className={classes.skills}>
                             <a
                                 href={skill.url}
                                 rel="noreferrer"
@@ -108,21 +109,22 @@ export const Home = (): ReactElement => {
                                 width={16}
                                 height={16}
                                 src="/Assets/top-right.svg"
-                                alt="logo"></Image>
+                                alt="logo"
+                            ></Image>
                             {skill.description}
-                        </p>
+                        </Paragraph>
                     ))}
-                    <p className={classes.skills}>{text4}</p>
+                    <Paragraph>{text4}</Paragraph>
                 </div>
                 <div className={classes.connect}>
                     <SectionTitle
                         style={{ marginBottom: "1.5rem" }}
                         text="🔗 Connect With Me"
                     />
-                    <p className={classes.paragraph}>{text5}</p>
-                    <SocialLinks style={{marginTop: "10px"}} links={links}/>
+                    <Paragraph className={classes.paragraph}>{text5}</Paragraph>
+                    <SocialLinks className={classes.socialLinks} links={links} />
                 </div>
-                <Footer/>
+                <Footer />
             </>
         </Aligner>
     );
