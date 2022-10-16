@@ -26,8 +26,8 @@ export const WorkEx: FC<Props> = ({experience}):ReactElement => {
                         </Subtitle>
                         <h6 className={classes.secondaryText}>{obj.role}</h6>
                         <h6 className={classes.secondaryText}>{obj.duration}</h6>
-                        <Paragraph className={classes.workDescription}>{obj.description}</Paragraph>
-                        <Paragraph className={classes.workDescription}>
+                        <Paragraph>{obj.description}</Paragraph>
+                        <Paragraph>
                             <span className={classes.techStack}>Tech Stack: </span>
                             {obj.techStack}
                         </Paragraph>

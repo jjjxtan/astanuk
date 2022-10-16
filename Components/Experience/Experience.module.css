@@ -49,12 +49,7 @@
     font-family: Gilroy-Bold;
     font-size: var(--text-subtitle);
 }
-.workDescription{
-    margin-top: 1rem;
-    font-size: var(--text-regular);
-    color: var(--color-primary);
-    text-align: justify;
-}
+
 .secondaryText{
     font-family: Gilroy-Regular;
     font-size: 1rem;
