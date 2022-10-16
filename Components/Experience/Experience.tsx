@@ -22,9 +22,9 @@ const links = [
         url: "https://auth.geeksforgeeks.org/user/omkathe26/practice",
     },
     {
-        name: "Codeforces",
-        svg: "/Assets/code-forces.svg",
-        url: "https://codeforces.com/profile/omkathe",
+        name: "HackerRank",
+        svg: "/Assets/hackerrank.svg",
+        url: "https://www.hackerrank.com/omkathe",
     },
 ];
 

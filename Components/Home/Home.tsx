@@ -8,6 +8,7 @@ import { NameTitle } from "../Common/Title/NameTitle";
 import { Title } from "../Common/Title/Title";
 import classes from "./Home.module.css";
 import { Paragraph } from "../Common/Paragraph/Paragraph";
+import TopRight from "../../public/Assets/top-right.svg";
 
 const skills = [
     {
@@ -102,12 +103,7 @@ export const Home = (): ReactElement => {
                             >
                                 {skill.name}
                             </a>
-                            <Image
-                                width={16}
-                                height={16}
-                                src="/Assets/top-right.svg"
-                                alt="logo"
-                            ></Image>
+                            <TopRight className={classes.topRight}/>
                             {skill.description}
                         </Paragraph>
                     ))}
