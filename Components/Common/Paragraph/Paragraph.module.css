@@ -1,6 +1,5 @@
 .paragraph{
     margin-top: 1rem;
     font-size: var(--text-regular);
-    color: var(--color-primary);
     text-align: justify;
 }

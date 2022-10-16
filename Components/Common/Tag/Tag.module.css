@@ -1,5 +1,5 @@
 .tagWrapper{
-    background-color: var(--color-greyish-white);
+    background-color: var(--color-tag-background);
     width: fit-content;
     padding: 4px 10px;
     margin-right: 1rem;
