@@ -1,7 +1,6 @@
 import { CSSProperties, FC, ReactElement, useState, useEffect } from "react";
 import classes from "./ThemeToggle.module.css";
-import Moon from "../../../public/Assets/moon.svg";
-import Sun from "../../../public/Assets/sun.svg";
+import SVG from "../../../public/Assets/SVG";
 
 type Props = {
     style?: CSSProperties,
@@ -60,15 +59,13 @@ export const ThemeToggle: FC<Props> = ({style, className}): ReactElement => {
     return (
         <>
             <div style={style} className={`${classes.toggleWrapper} ${className}`}>
-                {
+              <div onClick={handleToggle}>
+                  {
                     isDarkTheme ? 
-                    <div onClick={handleToggle}>
-                        <Moon className={classes.moonIcon}/>
-                    </div> :
-                    <div onClick={handleToggle}>
-                        <Sun className={classes.sunIcon}/>
-                    </div>
-                }
+                    <SVG.Moon className={classes.moonIcon}/> : 
+                    <SVG.Sun className={classes.sunIcon}/>
+                  }
+              </div>
             </div>
         </>
     );

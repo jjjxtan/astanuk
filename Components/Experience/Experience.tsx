@@ -10,21 +10,22 @@ import { Project } from "./Project";
 import { WorkEx } from "./WorkEx";
 import classes from "./Experience.module.css";
 import { ThemeToggle } from "../Common/ThemeToggle/ThemeToggle";
+import SVG from "../../public/Assets/SVG";
 
 const links = [
     {
         name: "LeetCode",
-        svg: "/Assets/leetcode.svg",
+        svg: <SVG.LeetCode/>,
         url: "https://leetcode.com/omkathe26/",
     },
     {
         name: "GeeksForGeeks",
-        svg: "/Assets/GeeksforGeeks.svg",
+        svg: <SVG.GFG/>,
         url: "https://auth.geeksforgeeks.org/user/omkathe26/practice",
     },
     {
         name: "HackerRank",
-        svg: "/Assets/hackerrank.svg",
+        svg: <SVG.HackerRank/>,
         url: "https://www.hackerrank.com/omkathe",
     },
 ];
@@ -48,7 +49,7 @@ const projects = [
         links: [
             {
                 name: "GitHub",
-                svg: "/Assets/github.svg",
+                svg: <SVG.GitHub/>,
                 url: "https://github.com/itsomkathe/Voicey",
             },
         ],
@@ -60,12 +61,12 @@ const projects = [
         links: [
             {
                 name: "GitHub",
-                svg: "/Assets/github.svg",
+                svg: <SVG.GitHub/>,
                 url: "https://github.com/itsomkathe/snapsprout",
             },
             {
                 name: "Live",
-                svg: "/Assets/eye.svg",
+                svg: <SVG.Eye/>,
                 url: "https://snapsprout.herokuapp.com/",
             },
         ],

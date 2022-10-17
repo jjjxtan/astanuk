@@ -8,7 +8,7 @@ type GeneralProps = {
 interface ISocialLink {
     name: string,
     url: string
-    svg?: string,
+    svg?: ReactElement,
 }
 
 type SocialLinksProps = {

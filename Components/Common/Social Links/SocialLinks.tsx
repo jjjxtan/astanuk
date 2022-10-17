@@ -1,5 +1,4 @@
 import { FC, ReactElement } from "react";
-import Image from "next/image";
 import classes from "./SocialLinks.module.css";
 
 export const SocialLinks: FC<SocialLinksProps>  = ({links, style, isActive, className}): ReactElement => {
@@ -8,15 +7,7 @@ export const SocialLinks: FC<SocialLinksProps>  = ({links, style, isActive, clas
             <ul style={style} className={`${classes.list} ${className}`}>
                 {links.map((link, index) => (
                     <li className={classes.listItem} key={index}>
-                        {link.svg &&
-                            <Image
-                                width={16}
-                                height={16}
-                                className={classes.image}
-                                src={link.svg}
-                                alt="logo"
-                            />
-                        }
+                        {link.svg}
                         <a
                             href={link.url}
                             target="_blank"

@@ -10,6 +10,7 @@ import classes from "./Home.module.css";
 import { Paragraph } from "../Common/Paragraph/Paragraph";
 import TopRight from "../../public/Assets/top-right.svg";
 import { ThemeToggle } from "../Common/ThemeToggle/ThemeToggle";
+import SVG from "../../public/Assets/SVG";
 
 const skills = [
     {
@@ -47,27 +48,27 @@ const skills = [
 const links = [
     {
         name: "LinkedIn",
-        svg: "/Assets/linkedin.svg",
+        svg: <SVG.LinkedIn/>,
         url: "https://www.linkedin.com/in/omkathe/",
     },
     {
         name: "Dev.to",
-        svg: "/Assets/dev-to.svg",
+        svg: <SVG.DevTo/>,
         url: "#",
     },
     {
         name: "Instagram",
-        svg: "/Assets/instagram.svg",
+        svg: <SVG.Instagram/>,
         url: "https://www.instagram.com/omkatheofficial/",
     },
     {
         name: "Facebook",
-        svg: "/Assets/facebook.svg",
+        svg: <SVG.Facebook/>,
         url: "https://www.facebook.com/omisonline/",
     },
     {
         name: "GitHub",
-        svg: "/Assets/github.svg",
+        svg: <SVG.GitHub/>,
         url: "https://github.com/itsomkathe",
     },
 ];
