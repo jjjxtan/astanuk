@@ -1,0 +1,13 @@
+.moonIcon{
+    color: var(--color-link-blue);
+    height: 1.5rem;
+    width: 1.5rem;
+    cursor: pointer;
+}
+
+.sunIcon{
+    color: var(--color-link-blue);
+    height: 2rem;
+    width: 2rem;
+    cursor: pointer;
+}

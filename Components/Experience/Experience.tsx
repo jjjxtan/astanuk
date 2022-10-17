@@ -9,6 +9,7 @@ import { Paragraph } from "../Common/Paragraph/Paragraph";
 import { Project } from "./Project";
 import { WorkEx } from "./WorkEx";
 import classes from "./Experience.module.css";
+import { ThemeToggle } from "../Common/ThemeToggle/ThemeToggle";
 
 const links = [
     {
@@ -92,7 +93,10 @@ export const Experience: FC = (): ReactElement => {
     return (
         <Aligner>
             <>
-                <NameTitle name="omkathe | " page="experience" />
+                <div className={classes.titleWrapper}>
+                    <NameTitle name="omkathe | " page="experience" />
+                    <ThemeToggle/>
+                </div>
                 <Navigation />
                 <Paragraph>{text1}</Paragraph>
                 <div className={classes.workexContainer}>
