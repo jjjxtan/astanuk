@@ -1,4 +1,5 @@
 import { ReactElement } from "react";
+import { LinkTo } from "@components/Common/LinkTo/LinkTo";
 import classes from "./Footer.module.css";
 
 export const Footer = (): ReactElement => {
@@ -7,26 +8,26 @@ export const Footer = (): ReactElement => {
             <footer className={classes.container}>
                 <span>
                     Built with{" "}
-                    <a
-                        href="https://nextjs.org/"
-                        rel="noreferrer"
-                        target="_blank"
+                    <LinkTo
                         className={classes.link}
+                        href="https://nextjs.org/"
+                        isActive
+                        target="_blank"
                     >
                         Next.js
-                    </a>
+                    </LinkTo>
                 </span>
                 <span className={classes.dot}>⬤</span>
                 <span>
                     View Source on{" "}
-                    <a
-                        href="https://github.com/itsomkathe/omkathe"
-                        rel="noreferrer"
-                        target="_blank"
+                    <LinkTo
                         className={classes.link}
+                        href="https://github.com/itsomkathe/omkathe"
+                        isActive
+                        target="_blank"
                     >
                         GitHub
-                    </a>
+                    </LinkTo>
                 </span>
             </footer>
         </>

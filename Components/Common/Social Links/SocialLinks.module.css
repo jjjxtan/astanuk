@@ -1,32 +1,20 @@
-.list{
+.listContainer{
     display: flex;
     list-style-type: none;
-    font-family: Gilroy-Medium;
     align-items: center;
     flex-wrap: wrap;
 }
 
 .listItem{
-    margin-right: 6px;
     display: flex;
     align-items: center;
 }
 
+.listItem span{
+    margin: 0 6px 0 6px;
+}
+
 .link{
-    margin: 0 6px 0 6px;
+    margin-left: 6px;
     line-height: 2rem;
-    cursor: pointer;
-}
-
-.link:hover{
-    color: var(--color-link-blue);
-    text-decoration: underline;
-}
-
-.linkActive{
-    color: var(--color-link-blue);
-    text-decoration: underline;
-    margin: 0 6px 0 6px;
-    line-height: 2rem;
-    cursor: pointer;
 }

@@ -10,11 +10,6 @@
 
 .link{
     font-family: Gilroy-Bold;
-    color: var(--color-link-blue);
-}
-
-.link:hover {
-    text-decoration: underline;
 }
 
 .connect{

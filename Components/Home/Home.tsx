@@ -7,6 +7,7 @@ import { NameTitle } from "@components/Common/Title/NameTitle";
 import { Title } from "@components/Common/Title/Title";
 import { Paragraph } from "@components/Common/Paragraph/Paragraph";
 import { ThemeToggle } from "@components/Common/ThemeToggle/ThemeToggle";
+import { LinkTo } from "@components/Common/LinkTo/LinkTo";
 import SVG from "@public/Assets/SVG";
 import classes from "./Home.module.css";
 
@@ -46,27 +47,27 @@ const skills = [
 const links = [
     {
         name: "LinkedIn",
-        svg: <SVG.LinkedIn/>,
+        svg: <SVG.LinkedIn />,
         url: "https://www.linkedin.com/in/omkathe/",
     },
     {
         name: "Dev.to",
-        svg: <SVG.DevTo/>,
+        svg: <SVG.DevTo />,
         url: "#",
     },
     {
         name: "Instagram",
-        svg: <SVG.Instagram/>,
+        svg: <SVG.Instagram />,
         url: "https://www.instagram.com/omkatheofficial/",
     },
     {
         name: "Facebook",
-        svg: <SVG.Facebook/>,
+        svg: <SVG.Facebook />,
         url: "https://www.facebook.com/omisonline/",
     },
     {
         name: "GitHub",
-        svg: <SVG.GitHub/>,
+        svg: <SVG.GitHub />,
         url: "https://github.com/itsomkathe",
     },
 ];
@@ -88,7 +89,7 @@ export const Home = (): ReactElement => {
             <>
                 <div className={classes.titleWrapper}>
                     <NameTitle name="omkathe | " page="home" />
-                    <ThemeToggle className={classes.themeToggle}/>
+                    <ThemeToggle className={classes.themeToggle} />
                 </div>
                 <Navigation />
                 <Paragraph>{text1}</Paragraph>
@@ -98,15 +99,15 @@ export const Home = (): ReactElement => {
                     <Title>👨‍💻 Technologies</Title>
                     {skills.map((skill, index) => (
                         <Paragraph key={index} className={classes.skills}>
-                            <a
+                            <LinkTo
                                 href={skill.url}
-                                rel="noreferrer"
                                 target="_blank"
+                                isActive
+                                isArrow
                                 className={classes.link}
                             >
                                 {skill.name}
-                            </a>
-                            <SVG.TopRight className={classes.topRight}/>
+                            </LinkTo>
                             {skill.description}
                         </Paragraph>
                     ))}
@@ -115,7 +116,10 @@ export const Home = (): ReactElement => {
                 <div className={classes.connect}>
                     <Title>🔗 Connect With Me</Title>
                     <Paragraph className={classes.paragraph}>{text5}</Paragraph>
-                    <SocialLinks className={classes.socialLinks} links={links} />
+                    <SocialLinks
+                        className={classes.socialLinks}
+                        links={links}
+                    />
                 </div>
                 <Footer />
             </>
