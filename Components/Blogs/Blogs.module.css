@@ -1,3 +1,8 @@
+.titleWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 .blogsContainer{
     margin-top: 1.5rem;
 }
@@ -10,12 +15,6 @@
 }
 .paragraph{
     margin-top: 0.2rem;
-}
-.newTag{
-    background-color: #FFD400;
-    margin-left: 1rem;
-    padding-top: 0;
-    padding-bottom: 0;
 }
 
 .secondaryText{
