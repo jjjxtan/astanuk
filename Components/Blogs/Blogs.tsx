@@ -3,6 +3,7 @@ import { Aligner } from "../Common/Aligner/Aligner";
 import { Footer } from "../Common/Footer/Footer";
 import { Navigation } from "../Common/Navigation/Navigation";
 import { Paragraph } from "../Common/Paragraph/Paragraph";
+import { ThemeToggle } from "../Common/ThemeToggle/ThemeToggle";
 import { NameTitle } from "../Common/Title/NameTitle";
 import { Title } from "../Common/Title/Title";
 import { Blog } from "./Blog";
@@ -42,7 +43,10 @@ export const Blogs = (): ReactElement => {
     return (
         <Aligner>
             <>
-                <NameTitle name="omkathe | " page="blogs" />
+                <div className={classes.titleWrapper}>
+                    <NameTitle name="omkathe | " page="blogs" />
+                    <ThemeToggle/>
+                </div> 
                 <Navigation />
                 <Paragraph>
                     {text}

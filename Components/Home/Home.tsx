@@ -9,6 +9,7 @@ import { Title } from "../Common/Title/Title";
 import classes from "./Home.module.css";
 import { Paragraph } from "../Common/Paragraph/Paragraph";
 import TopRight from "../../public/Assets/top-right.svg";
+import { ThemeToggle } from "../Common/ThemeToggle/ThemeToggle";
 
 const skills = [
     {
@@ -86,7 +87,10 @@ export const Home = (): ReactElement => {
     return (
         <Aligner>
             <>
-                <NameTitle name="omkathe | " page="home" />
+                <div className={classes.titleWrapper}>
+                    <NameTitle name="omkathe | " page="home" />
+                    <ThemeToggle className={classes.themeToggle}/>
+                </div>
                 <Navigation />
                 <Paragraph>{text1}</Paragraph>
                 <Paragraph>{text2}</Paragraph>

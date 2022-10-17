@@ -17,6 +17,8 @@ html,
 body {
   font-family: Gilroy-Medium;
   color: var(--color-primary);
+  background-color: var(--color-background);
+  transition: background 0.3s;
 }
 
 a {
