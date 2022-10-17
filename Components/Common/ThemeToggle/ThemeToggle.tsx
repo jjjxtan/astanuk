@@ -1,6 +1,6 @@
 import { CSSProperties, FC, ReactElement, useState, useEffect } from "react";
+import SVG from "@public/Assets/SVG";
 import classes from "./ThemeToggle.module.css";
-import SVG from "../../../public/Assets/SVG";
 
 type Props = {
     style?: CSSProperties,

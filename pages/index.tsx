@@ -1,7 +1,6 @@
 import type { NextPage } from "next";
 import Head from "next/head";
-import { Home as HomePage } from "../components/Home/Home";
-import styles from "../styles/Home.module.css";
+import { Home as HomePage } from "@components/Home/Home";
 
 const Home: NextPage = () => {
     return (

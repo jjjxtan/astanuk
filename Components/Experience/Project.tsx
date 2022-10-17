@@ -1,7 +1,7 @@
 import { FC, ReactElement } from "react";
-import { Paragraph } from "../Common/Paragraph/Paragraph";
-import { SocialLinks } from "../Common/Social Links/SocialLinks";
-import { Subtitle } from "../Common/Title/Subtitle";
+import { Paragraph } from "@components/Common/Paragraph/Paragraph";
+import { SocialLinks } from "@components/Common/Social Links/SocialLinks";
+import { Subtitle } from "@components/Common/Title/Subtitle";
 import classes from "./Experience.module.css";
 
 type ProjectProps = {

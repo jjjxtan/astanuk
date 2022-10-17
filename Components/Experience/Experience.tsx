@@ -1,16 +1,16 @@
 import { FC, ReactElement } from "react";
-import { Aligner } from "../Common/Aligner/Aligner";
-import { Footer } from "../Common/Footer/Footer";
-import { Navigation } from "../Common/Navigation/Navigation";
-import { SocialLinks } from "../Common/Social Links/SocialLinks";
-import { NameTitle } from "../Common/Title/NameTitle";
-import { Title } from "../Common/Title/Title";
-import { Paragraph } from "../Common/Paragraph/Paragraph";
+import { Aligner } from "@components/Common/Aligner/Aligner";
+import { Footer } from "@components/Common/Footer/Footer";
+import { Navigation } from "@components/Common/Navigation/Navigation";
+import { SocialLinks } from "@components/Common/Social Links/SocialLinks";
+import { NameTitle } from "@components/Common/Title/NameTitle";
+import { Title } from "@components/Common/Title/Title";
+import { Paragraph } from "@components/Common/Paragraph/Paragraph";
+import { ThemeToggle } from "@components/Common/ThemeToggle/ThemeToggle";
+import SVG from "@public/Assets/SVG";
 import { Project } from "./Project";
 import { WorkEx } from "./WorkEx";
 import classes from "./Experience.module.css";
-import { ThemeToggle } from "../Common/ThemeToggle/ThemeToggle";
-import SVG from "../../public/Assets/SVG";
 
 const links = [
     {

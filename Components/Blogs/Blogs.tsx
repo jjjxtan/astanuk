@@ -1,11 +1,11 @@
 import { ReactElement } from "react";
-import { Aligner } from "../Common/Aligner/Aligner";
-import { Footer } from "../Common/Footer/Footer";
-import { Navigation } from "../Common/Navigation/Navigation";
-import { Paragraph } from "../Common/Paragraph/Paragraph";
-import { ThemeToggle } from "../Common/ThemeToggle/ThemeToggle";
-import { NameTitle } from "../Common/Title/NameTitle";
-import { Title } from "../Common/Title/Title";
+import { Aligner } from "@components/Common/Aligner/Aligner";
+import { Footer } from "@components/Common/Footer/Footer";
+import { Navigation } from "@components/Common/Navigation/Navigation";
+import { Paragraph } from "@components/Common/Paragraph/Paragraph";
+import { ThemeToggle } from "@components/Common/ThemeToggle/ThemeToggle";
+import { NameTitle } from "@components/Common/Title/NameTitle";
+import { Title } from "@components/Common/Title/Title";
 import { Blog } from "./Blog";
 import classes from "./Blogs.module.css";
 

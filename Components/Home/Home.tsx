@@ -1,16 +1,14 @@
 import { ReactElement } from "react";
-import Image from "next/image";
-import { Aligner } from "../Common/Aligner/Aligner";
-import { Footer } from "../Common/Footer/Footer";
-import { Navigation } from "../Common/Navigation/Navigation";
-import { SocialLinks } from "../Common/Social Links/SocialLinks";
-import { NameTitle } from "../Common/Title/NameTitle";
-import { Title } from "../Common/Title/Title";
+import { Aligner } from "@components/Common/Aligner/Aligner";
+import { Footer } from "@components/Common/Footer/Footer";
+import { Navigation } from "@components/Common/Navigation/Navigation";
+import { SocialLinks } from "@components/Common/Social Links/SocialLinks";
+import { NameTitle } from "@components/Common/Title/NameTitle";
+import { Title } from "@components/Common/Title/Title";
+import { Paragraph } from "@components/Common/Paragraph/Paragraph";
+import { ThemeToggle } from "@components/Common/ThemeToggle/ThemeToggle";
+import SVG from "@public/Assets/SVG";
 import classes from "./Home.module.css";
-import { Paragraph } from "../Common/Paragraph/Paragraph";
-import TopRight from "../../public/Assets/top-right.svg";
-import { ThemeToggle } from "../Common/ThemeToggle/ThemeToggle";
-import SVG from "../../public/Assets/SVG";
 
 const skills = [
     {
@@ -108,7 +106,7 @@ export const Home = (): ReactElement => {
                             >
                                 {skill.name}
                             </a>
-                            <TopRight className={classes.topRight}/>
+                            <SVG.TopRight className={classes.topRight}/>
                             {skill.description}
                         </Paragraph>
                     ))}

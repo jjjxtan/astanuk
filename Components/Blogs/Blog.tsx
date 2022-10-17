@@ -1,8 +1,7 @@
 import { FC, ReactElement } from "react";
-import Image from "next/image";
-import { Paragraph } from "../Common/Paragraph/Paragraph";
-import { Subtitle } from "../Common/Title/Subtitle";
-import { Tag } from "../Common/Tag/Tag";
+import { Paragraph } from "@components/Common/Paragraph/Paragraph";
+import { Subtitle } from "@components/Common/Title/Subtitle";
+import { Tag } from "@components/Common/Tag/Tag";
 import classes from "./Blogs.module.css";
 
 interface IBlog {
