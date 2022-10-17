@@ -118,7 +118,7 @@ export const Experience: FC = (): ReactElement => {
                     ))}
                 </div>
                 <div className={classes.profiles}>
-                    <Title>🏎️ Coding Profiles</Title>
+                    <Title>🎯 Coding Profiles</Title>
                     <Paragraph>{text3}</Paragraph>
                     <SocialLinks className={classes.socialLinks} links={links} />
                 </div>
