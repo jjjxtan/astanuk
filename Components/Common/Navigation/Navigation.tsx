@@ -6,38 +6,44 @@ import classes from "./Navigation.module.css";
 const pages = [
     {
         url: "/",
-        name: "Home"
+        name: "Home",
     },
     {
         url: "/experience",
-        name: "Experience"
+        name: "Experience",
     },
     {
         url: "/blogs",
-        name: "Blogs"
+        name: "Blogs",
     },
     {
-        url: "/resume",
+        url: "/resume.pdf",
         name: "Resume"
     }
-]
+];
 
-export const Navigation: FC = ():ReactElement=>{
+export const Navigation: FC = (): ReactElement => {
     const router = useRouter();
 
-    return(
+    return (
         <>
             <nav className={classes.navContainer}>
                 <ul className={classes.list}>
-                    {
-                        pages.map((page, index)=>
-                            (<Link key={index} href={page.url}>
-                                <li className={router.pathname == page.url ? classes.listItemActive : classes.listItem}>{page.name}</li>
-                            </Link>)
-                        )
-                    }
+                    {pages.map((page, index) => (
+                        <Link key={index} href={page.url}>
+                            <li
+                                className={
+                                    router.pathname == page.url
+                                        ? classes.listItemActive
+                                        : classes.listItem
+                                }
+                            >
+                                {page.name}
+                            </li>
+                        </Link>
+                    ))}
                 </ul>
             </nav>
         </>
-    )
-}
+    );
+};
