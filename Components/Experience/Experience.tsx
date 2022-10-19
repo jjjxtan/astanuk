@@ -2,7 +2,7 @@ import { FC, ReactElement } from "react";
 import { Aligner } from "@components/Common/Aligner/Aligner";
 import { Footer } from "@components/Common/Footer/Footer";
 import { Navigation } from "@components/Common/Navigation/Navigation";
-import { SocialLinks } from "@components/Common/Social Links/SocialLinks";
+import { SocialLinks } from "@components/Common/SocialLinks/SocialLinks";
 import { NameTitle } from "@components/Common/Title/NameTitle";
 import { Title } from "@components/Common/Title/Title";
 import { Paragraph } from "@components/Common/Paragraph/Paragraph";
@@ -10,25 +10,8 @@ import { ThemeToggle } from "@components/Common/ThemeToggle/ThemeToggle";
 import SVG from "@public/Assets/SVG";
 import { Project } from "./Project";
 import { WorkEx } from "./WorkEx";
+import { codingProfilesLinks } from "@components/Common/SocialLinks/LinkData";
 import classes from "./Experience.module.css";
-
-const links = [
-    {
-        name: "LeetCode",
-        svg: <SVG.LeetCode/>,
-        url: "https://leetcode.com/omkathe26/",
-    },
-    {
-        name: "GeeksForGeeks",
-        svg: <SVG.GFG/>,
-        url: "https://auth.geeksforgeeks.org/user/omkathe26/practice",
-    },
-    {
-        name: "HackerRank",
-        svg: <SVG.HackerRank/>,
-        url: "https://www.hackerrank.com/omkathe",
-    },
-];
 
 const text1 =
     "I’ve been coding since 2017. Currently, I’m pursuing Bachelors in Computer Engineering. Also, I’m interning at NavGurukul. In this journey, I’ve used many programming languages such as Java, JavaScript, Python and getting around with TypeScript lately.";
@@ -96,7 +79,7 @@ export const Experience: FC = (): ReactElement => {
             <>
                 <div className={classes.titleWrapper}>
                     <NameTitle name="omkathe | " page="experience" />
-                    <ThemeToggle/>
+                    <ThemeToggle />
                 </div>
                 <Navigation />
                 <Paragraph>{text1}</Paragraph>
@@ -120,7 +103,10 @@ export const Experience: FC = (): ReactElement => {
                 <div className={classes.profiles}>
                     <Title>🎯 Coding Profiles</Title>
                     <Paragraph>{text3}</Paragraph>
-                    <SocialLinks className={classes.socialLinks} links={links} />
+                    <SocialLinks
+                        className={classes.socialLinks}
+                        links={codingProfilesLinks}
+                    />
                 </div>
                 <Footer />
             </>

@@ -1,0 +1,47 @@
+{
+    "header": [
+        "Hi! 👋 I’m Om. I’m a Software Engineer.",
+
+        "I’ve been coding since 2017. Currently, I’m pursuing Bachelors in Computer Engineering. Also, I’m interning at NavGurukul. In this journey, I’ve used many programming languages such as Java, JavaScript, Python and getting around with TypeScript lately.",
+
+        "I like solving problems, related to data structures and algorithms. Currently, I’m learning about design principles and software architecture. I also write blogs related to all the above topics and when I feel I’ve learned something interesting."
+    ],
+
+    "technologies": {
+        "list": [
+            {
+                "name": "React.js ",
+                "description": ": My go to library for single-page applications",
+                "url": "https://reactjs.org/"
+            },
+            {
+                "name": "Redux ",
+                "description": ": When state gets complex",
+                "url": "https://redux.js.org/"
+            },
+            {
+                "name": "Next.js ",
+                "description": ": Learned for making this website ;-)",
+                "url": "https://nextjs.org/"
+            },
+            {
+                "name": "Express.js ",
+                "description": ": Make a server in minutes",
+                "url": "https://expressjs.com/"
+            },
+            {
+                "name": "MySQL ",
+                "description": ": Good old RDBMS",
+                "url": "https://www.mysql.com/"
+            },
+            {
+                "name": "MongoDB ",
+                "description": ": Simple, fast, scalable",
+                "url": "https://www.mongodb.com/"
+            }
+        ],
+        "text": "... and a lot more to get the work done."
+    },
+
+    "connectMeText": "Feel free to reach out to me on any of these"
+}
