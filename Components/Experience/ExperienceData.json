@@ -1,0 +1,57 @@
+{
+    "header": [
+        "I’ve been coding since 2017. Currently, I’m pursuing Bachelors in Computer Engineering. Also, I’m interning at NavGurukul. In this journey, I’ve used many programming languages such as Java, JavaScript, Python and getting around with TypeScript lately."
+    ],
+
+    "experience": [
+        {
+            "company": "NavGurukul",
+            "role": "Frontend Engineer Intern",
+            "duration": "Since July 2022",
+            "description": "I’ve been coding since 2017. Currently, I’m pursuing Bachelors in Computer Engineering. Also, I’m interning at NavGurukul. In this journey, I’ve used many programming languages such as Java, JavaScript, Python and getting around with TypeScript lately.",
+            "techStack": "React.js, Redux, Express.js, MongoDB, WebRTC, Socket.io"
+        },
+        {
+            "company": "Bitsmith Technologies",
+            "role": "Software Engineer Intern",
+            "duration": "Jan 2022 - Mar 2022",
+            "description": "I’ve been coding since 2017. Currently, I’m pursuing Bachelors in Computer Engineering. Also, I’m interning at NavGurukul. In this journey, I’ve used many programming languages such as Java, JavaScript, Python and getting around with TypeScript lately.",
+            "techStack": "React.js, Redux, Express.js, MongoDB, WebRTC, Socket.io"
+        }
+    ],
+
+    "projects": {
+        "text": "I’ve been coding since 2017. Currently, I’m pursuing Bachelors in Computer Engineering. Also, I’m interning at NavGurukul. In this journey, I’ve used many programming languages such as Java, JavaScript, Python and getting around with TypeScript lately.",
+        "list": [
+            {
+                "name": "Voicey",
+                "description": "I’ve been coding since 2017. Currently, I’m pursuing Bachelors in Computer Engineering. Also, I’m interning at NavGurukul. In this journey, I’ve used many programming languages such as Java, JavaScript, Python and getting around with TypeScript lately.",
+                "techStack": "React.js, Redux, Express.js, MongoDB, WebRTC, Socket.io",
+                "links": [
+                    {
+                        "name": "GitHub",
+                        "svg": "GitHub",
+                        "url": "https://github.com/itsomkathe/Voicey"
+                    }
+                ]
+            },
+            {
+                "name": "Snapsprout",
+                "description": "I’ve been coding since 2017. Currently, I’m pursuing Bachelors in Computer Engineering. Also, I’m interning at NavGurukul. In this journey, I’ve used many programming languages such as Java, JavaScript, Python and getting around with TypeScript lately.",
+                "techStack": "React.js, Redux, Express.js, MongoDB, WebRTC, Socket.io",
+                "links": [
+                    {
+                        "name": "GitHub",
+                        "svg": "GitHub",
+                        "url": "https://github.com/itsomkathe/snapsprout"
+                    },
+                    {
+                        "name": "Live",
+                        "svg": "Eye",
+                        "url": "https://snapsprout.herokuapp.com/"
+                    }
+                ]
+            }
+        ]
+    }
+}

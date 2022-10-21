@@ -1,47 +1,45 @@
-import SVG from "@public/Assets/SVG";
-
-export const homePageSocialLinks = [
+export const homePageSocialLinks : ISocialLink[] = [
     {
         name: "LinkedIn",
-        svg: <SVG.LinkedIn/>,
+        svg: "LinkedIn",
         url: "https://www.linkedin.com/in/omkathe/",
     },
     {
         name: "Dev.to",
-        svg: <SVG.DevTo/>,
+        svg: "DevTo",
         url: "https://dev.to/itsomkathe",
     },
     {
         name: "Instagram",
-        svg: <SVG.Instagram/>,
+        svg: "Instagram",
         url: "https://www.instagram.com/omkatheofficial/",
     },
     {
         name: "Facebook",
-        svg: <SVG.Facebook/>,
+        svg: "Facebook",
         url: "https://www.facebook.com/omisonline/",
     },
     {
         name: "GitHub",
-        svg: <SVG.GitHub/>,
+        svg: "GitHub",
         url: "https://github.com/itsomkathe",
     },
 ];
 
-export const codingProfilesLinks = [
+export const codingProfilesLinks : ISocialLink[] = [
     {
         name: "LeetCode",
-        svg: <SVG.LeetCode/>,
+        svg: "LeetCode",
         url: "https://leetcode.com/omkathe26/",
     },
     {
         name: "GeeksForGeeks",
-        svg: <SVG.GFG/>,
+        svg: "GFG",
         url: "https://auth.geeksforgeeks.org/user/omkathe26/practice",
     },
     {
         name: "HackerRank",
-        svg: <SVG.HackerRank/>,
+        svg: "HackerRank",
         url: "https://www.hackerrank.com/omkathe",
     },
 ];

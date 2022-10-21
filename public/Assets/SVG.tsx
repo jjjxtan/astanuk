@@ -11,6 +11,6 @@ import Moon from "./Moon.svg";
 import Sun from "./Sun.svg";
 import TopRight from "./top-right.svg";
 
-const icons =  {LinkedIn, DevTo, Instagram, Facebook, GitHub, LeetCode, GFG, Eye, HackerRank, Moon, Sun, TopRight}
+const icons: Record<string, string> =  {LinkedIn, DevTo, Instagram, Facebook, GitHub, LeetCode, GFG, Eye, HackerRank, Moon, Sun, TopRight}
 
 export default icons;
