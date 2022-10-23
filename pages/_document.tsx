@@ -25,11 +25,9 @@ function setInitialColorMode() {
     root.style.setProperty("--initial-color-mode", colorMode);
     if (colorMode === "dark") document.documentElement.setAttribute("data-theme", "dark");
 }
-// our function needs to be a string
-const blockingSetInitialColorMode = `(function() {
-      ${setInitialColorMode.toString()}
-      setInitialColorMode();
-})()`;
+// Function needs to be a string
+//IIFE
+const blockingSetInitialColorMode = `(function(){${setInitialColorMode.toString()}setInitialColorMode();})()`;
   
 export default class MyDocument extends Document {
     render() {
