@@ -4,8 +4,7 @@ import classes from "./SocialLinks.module.css";
 import SVG from "@public/Assets/SVG";
 
 
-export const SocialLinks: FC<SocialLinksProps>  = ({links, style, isActive, className}): ReactElement => {
-    console.log(links)
+export const SocialLinks: FC<SocialLinksProps>  = ({links, style, className}): ReactElement => {
     return (
         <>
             <ul style={style} className={`${classes.listContainer} ${className}`}>

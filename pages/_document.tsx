@@ -21,12 +21,15 @@ function setInitialColorMode() {
         return "light";
     }
     const colorMode = getInitialColorMode();
+    const root = document.documentElement;
+    root.style.setProperty("--initial-color-mode", colorMode);
+    if (colorMode === "dark") document.documentElement.setAttribute("data-theme", "dark");
 }
 // our function needs to be a string
 const blockingSetInitialColorMode = `(function() {
       ${setInitialColorMode.toString()}
       setInitialColorMode();
-  })()`;
+})()`;
   
 export default class MyDocument extends Document {
     render() {
