@@ -21,11 +21,11 @@
     ],
 
     "projects": {
-        "text": "I’ve been coding since 2017. Currently, I’m pursuing Bachelors in Computer Engineering. Also, I’m interning at NavGurukul. In this journey, I’ve used many programming languages such as Java, JavaScript, Python and getting around with TypeScript lately.",
+        "text": "Projects are a great way to apply all our learnings. Here are the ones that I have created.",
         "list": [
             {
                 "name": "Voicey",
-                "description": "I’ve been coding since 2017. Currently, I’m pursuing Bachelors in Computer Engineering. Also, I’m interning at NavGurukul. In this journey, I’ve used many programming languages such as Java, JavaScript, Python and getting around with TypeScript lately.",
+                "description": "This voice chat application allows users to create rooms and join them. This has been built on peer-to-peer technology. Also, it has an OTP-based authentication. And the idea is inspired by Clubhouse.",
                 "techStack": "React.js, Redux, Express.js, MongoDB, WebRTC, Socket.io",
                 "links": [
                     {
@@ -37,8 +37,8 @@
             },
             {
                 "name": "Snapsprout",
-                "description": "I’ve been coding since 2017. Currently, I’m pursuing Bachelors in Computer Engineering. Also, I’m interning at NavGurukul. In this journey, I’ve used many programming languages such as Java, JavaScript, Python and getting around with TypeScript lately.",
-                "techStack": "React.js, Redux, Express.js, MongoDB, WebRTC, Socket.io",
+                "description": "This social media application has all the features, such as uploading pictures, liking, commenting, searching, and much more. The UI seems to be seen someplace, though :-)",
+                "techStack": "React.js, Express.js, MongoDB, Lottie Animation",
                 "links": [
                     {
                         "name": "GitHub",
@@ -53,5 +53,8 @@
                 ]
             }
         ]
-    }
+    },
+
+    "codingProfiles": "I'm not a competitive programmer, but I like solving problems related to DSA. Here are some of my profiles."
+
 }

@@ -14,29 +14,13 @@ const text =
 
 const blogList = [
     {
-        title: "Why Consistent Learning Is Important",
-        description: "I’ve been coding since 2017. Currently, I’m pursuing Bachelors in Computer Engineering. Also, I’m interning at NavGurukul.",
+        title: "Leverage agile frameworks",
+        description: "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.",
         date: "October 10, 2022",
         time: "5 Minutes Read",
         tags: ["JavaScript", "GraphQL", "Microservices"],
         isNew: true
     },
-    {
-        title: "Why Consistent Learning Is Important",
-        description: "I’ve been coding since 2017. Currently, I’m pursuing Bachelors in Computer Engineering. Also, I’m interning at NavGurukul.",
-        date: "October 10, 2022",
-        time: "5 Minutes Read",
-        tags: ["Mental Health", "Entrepereneurship", "Business", "Business", "Business"],
-        isNew: true
-    },
-    {
-        title: "How to build a billion dollar firm",
-        description: "I’ve been coding since 2017. Currently, I’m pursuing Bachelors in Computer Engineering. Also, I’m interning at NavGurukul.",
-        date: "October 10, 2022",
-        time: "5 Minutes Read",
-        tags: ["JavaScript", "GraphQL", "Microservices"],
-        isNew: true
-    }
 ]
 
 export const Blogs = (): ReactElement => {
@@ -54,8 +38,7 @@ export const Blogs = (): ReactElement => {
                 <div className={classes.blogsContainer}>
                     <Title>✍️ Blogs</Title>
                     <Blog blogList={blogList}/>
-                </div>
-                
+                </div>  
                 <Footer />
             </>
         </Aligner>

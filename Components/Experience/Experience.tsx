@@ -63,7 +63,7 @@ export const Experience: FC = (): ReactElement => {
                 </div>
                 <div className={classes.profiles}>
                     <Title>🎯 Coding Profiles</Title>
-                    <Paragraph>Hello</Paragraph>
+                    <Paragraph>{data.codingProfiles}</Paragraph>
                     <SocialLinks
                         className={classes.socialLinks}
                         links={codingProfilesLinks}
