@@ -3,7 +3,7 @@ import SVG from "@public/Assets/SVG";
 import classes from "./LinkTo.module.css";
 
 type Props = {
-    children: string;
+    children: ReactElement;
     href: string;
     target?: string;
     isActive?: boolean;
@@ -32,8 +32,7 @@ export const LinkTo: FC<Props> = ({
                     isActive ? classes.linkWrapperActive : classes.linkWrapper
                 } ${className}`}
             >
-                {children}
-                {isArrow && <SVG.TopRight />}
+                <span>{children} {isArrow && <SVG.TopRight />}</span>
             </a>
         </>
     );

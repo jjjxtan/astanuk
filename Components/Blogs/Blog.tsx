@@ -3,15 +3,7 @@ import { Paragraph } from "@components/Common/Paragraph/Paragraph";
 import { Subtitle } from "@components/Common/Title/Subtitle";
 import { Tag } from "@components/Common/Tag/Tag";
 import classes from "./Blogs.module.css";
-
-interface IBlog {
-    title: string;
-    description: string;
-    date: string;
-    time: string;
-    tags: string[];
-    isNew?: boolean
-}
+import { LinkTo } from "@components/Common/LinkTo/LinkTo";
 
 type Props = {
     blogList: IBlog[] | [];
@@ -22,17 +14,22 @@ export const Blog: FC<Props> = ({ blogList }): ReactElement => {
         <div className={classes.blogsWrapper}>
             {blogList.map((obj, index) => (
                 <div className={classes.blog} key={index}>
-                    <Subtitle className={classes.title}>
+                    {/* <Subtitle className={classes.title}>
                         {obj.title}
-                    </Subtitle>
+                    </Subtitle> */}
+                    <LinkTo isArrow href="#">
+                        <Subtitle className={classes.title}>
+                            {obj.title}
+                        </Subtitle>
+                    </LinkTo>
                     <Paragraph className={classes.paragraph}>{obj.description}</Paragraph>
                     <h6 className={classes.secondaryText}>
-                        {obj.date}
+                        {obj.published_at}
                         <span className={classes.dot}>⬤</span>
-                        {obj.time}
+                        {obj.reading_time_minutes} Minute Read
                     </h6>
                     <div className={classes.tagsContainer}>
-                        {obj.tags.map((tag, idx) => (
+                        {obj.tag_list.map((tag, idx) => (
                             <Tag key={idx}>{tag}</Tag>
                         ))}
                     </div>
