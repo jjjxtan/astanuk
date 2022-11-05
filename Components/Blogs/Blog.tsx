@@ -14,10 +14,7 @@ export const Blog: FC<Props> = ({ blogList }): ReactElement => {
         <div className={classes.blogsWrapper}>
             {blogList.map((obj, index) => (
                 <div className={classes.blog} key={index}>
-                    {/* <Subtitle className={classes.title}>
-                        {obj.title}
-                    </Subtitle> */}
-                    <LinkTo isArrow href="#">
+                    <LinkTo isArrow href={obj.url}>
                         <Subtitle className={classes.title}>
                             {obj.title}
                         </Subtitle>
