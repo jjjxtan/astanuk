@@ -1,4 +1,4 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<!-- This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
 
@@ -31,4 +31,14 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details. -->
+
+<style>
+    h1, h2{
+        border: none
+    }
+</style>
+
+# omkathe | **portfolio**
+
+<img style="border-radius:8px" class="shield" src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" /> <img style="border-radius:8px" src="https://img.shields.io/badge/Next.js-0d0d0d?style=for-the-badge&logo=Next.js&logoColor=white" /> <img style="border-radius:8px" src="https://img.shields.io/badge/Vercel-0d0d0d?style=for-the-badge&logo=Vercel&logoColor=white" /> <img style="border-radius:8px" src="https://img.shields.io/badge/Google Analytics-E37400?style=for-the-badge&logo=Google-Analytics&logoColor=white" />
