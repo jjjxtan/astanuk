@@ -33,6 +33,8 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details. -->
 
-# omkathe | **portfolio**
+# 🚀 omkathe | **portfolio**
 
-<img class="shield" src="https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white" /> <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB"/> <img src="https://img.shields.io/badge/Next.js-0d0d0d?style=flat-square&logo=Next.js&logoColor=white" /> <img src="https://img.shields.io/badge/Vercel-0d0d0d?style=flat-square&logo=Vercel&logoColor=white" /> <img src="https://img.shields.io/badge/Google Analytics-E37400?style=flat-square&logo=Google-Analytics&logoColor=white" />
+Thank you for checking my website. Here is the source code for it.
+
+<img src="https://img.shields.io/badge/License-MIT-blue.svg"/> <img src="https://img.shields.io/badge/Maintained-Yes-green.svg"/>
