@@ -1,15 +1,8 @@
 import { FC, ReactElement } from "react";
 import { Paragraph } from "@components/Common/Paragraph/Paragraph";
 import { Subtitle } from "@components/Common/Title/Subtitle";
+import { LinkTo } from "@components/Common/LinkTo/LinkTo";
 import classes from "./Experience.module.css";
-
-interface Experience{
-    company: string,
-    role: string,
-    duration: string,
-    description: string,
-    techStack: string
-}
 
 type Props = {
     experience: Experience[] | []
@@ -21,9 +14,12 @@ export const WorkEx: FC<Props> = ({experience}):ReactElement => {
             {
                 experience.map((obj, index)=>(
                     <div className={classes.workex} key={index}>
-                        <Subtitle>
-                            {obj.company}
-                        </Subtitle>
+                        <LinkTo target="_blank" href={obj.url} isArrow>
+                            <Subtitle className={classes.companyName}>
+                                {obj.company}
+                            </Subtitle>
+                        </LinkTo>
+                        
                         <h6 className={classes.secondaryText}>{obj.role}</h6>
                         <h6 className={classes.secondaryText}>{obj.duration}</h6>
                         <Paragraph>{obj.description}</Paragraph>

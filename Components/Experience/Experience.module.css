@@ -44,8 +44,7 @@
 }
 
 .companyName{
-    font-family: Gilroy-Bold;
-    font-size: var(--text-subtitle);
+    display: inline;
 }
 
 .secondaryText{

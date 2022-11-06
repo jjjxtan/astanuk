@@ -31,3 +31,14 @@ interface IBlog {
 type BlogProps = {
     blogList: IBlog[]
 }
+
+/*Experience */
+
+interface Experience{
+    company: string,
+    role: string,
+    duration: string,
+    description: string,
+    techStack: string,
+    url: string
+}

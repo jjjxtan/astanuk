@@ -13,14 +13,6 @@ import { codingProfilesLinks } from "@components/Common/SocialLinks/LinkData";
 import data from "./ExperienceData.json";
 import classes from "./Experience.module.css";
 
-type ExpList = {
-    company: string;
-    role: string;
-    duration: string;
-    description: string;
-    techStack: string;
-};
-
 type ProjectList = {
     name: string;
     description: string;
@@ -30,7 +22,7 @@ type ProjectList = {
 
 export const Experience: FC = (): ReactElement => {
     const header : String[] = data.header;
-    const experience : ExpList[] = data.experience;
+    const experience : Experience[] = data.experience;
     const projectList : ProjectList[] = data.projects.list;
 
     return (

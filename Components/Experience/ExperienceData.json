@@ -9,14 +9,16 @@
             "role": "Frontend Engineer Intern",
             "duration": "Since July 2022",
             "description": "I work on the product Meraki, which provides resources to learn programming, Spoken English, etc., to 20000+ students. I primarily work with React and Material UI. I've worked on various features and enhancements of the application, such as the chat feature, which connects students with their mentors and peers, and learning tracks on which students get articles, tutorials, and quizzes.",
-            "techStack": "React.js, Material UI"
+            "techStack": "React.js, Material UI",
+            "url": "https://www.navgurukul.org/"
         },
         {
             "company": "Bitsmith Technologies",
             "role": "Software Engineer Intern",
             "duration": "Jan 2022 - Mar 2022",
             "description": "I worked on a flagship product of the company Bitsmith Classroom, an institute management application. Joined as an intern, I contributed to both the backend and frontend of the app. I implemented the integration of Google Calendar API and Razorpay Integration using SDK. Also, I developed tables using Tabler React to show students' data.",
-            "techStack": "React.js, Node.js, Express.js, MongoDB"
+            "techStack": "React.js, Node.js, Express.js, MongoDB",
+            "url": "https://bitsmith.tech/"
         }
     ],
 
