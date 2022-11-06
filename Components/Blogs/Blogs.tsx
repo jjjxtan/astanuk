@@ -1,4 +1,4 @@
-import { ReactElement, useEffect, useState, FC } from "react";
+import { FC } from "react";
 import { Aligner } from "@components/Common/Aligner/Aligner";
 import { Footer } from "@components/Common/Footer/Footer";
 import { Navigation } from "@components/Common/Navigation/Navigation";
@@ -9,9 +9,6 @@ import { Title } from "@components/Common/Title/Title";
 import { Blog } from "./Blog";
 import classes from "./Blogs.module.css";
 import data from "./BlogsData.json";
-
-const text =
-    "I’ve been coding since 2017. Currently, I’m pursuing Bachelors in Computer Engineering. Also, I’m interning at NavGurukul. In this journey, I’ve used many programming languages such as Java, JavaScript, Python and getting around with TypeScript lately.";
 
 const Blogs: FC<BlogProps> = ({ blogList }) => {
 

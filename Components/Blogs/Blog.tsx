@@ -5,11 +5,7 @@ import { Tag } from "@components/Common/Tag/Tag";
 import classes from "./Blogs.module.css";
 import { LinkTo } from "@components/Common/LinkTo/LinkTo";
 
-type Props = {
-    blogList: IBlog[] | [];
-};
-
-export const Blog: FC<Props> = ({ blogList }): ReactElement => {
+export const Blog: FC<BlogProps> = ({ blogList }): ReactElement => {
     return (
         <div className={classes.blogsWrapper}>
             {blogList.map((obj, index) => (
