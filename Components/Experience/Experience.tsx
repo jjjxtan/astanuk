@@ -13,17 +13,10 @@ import { codingProfilesLinks } from "@components/Common/SocialLinks/LinkData";
 import data from "./ExperienceData.json";
 import classes from "./Experience.module.css";
 
-type ProjectList = {
-    name: string;
-    description: string;
-    techStack: string;
-    links: ISocialLink[]
-}
-
 export const Experience: FC = (): ReactElement => {
-    const header : String[] = data.header;
+    const header : string[] = data.header;
     const experience : Experience[] = data.experience;
-    const projectList : ProjectList[] = data.projects.list;
+    const projectList : Project[] = data.projects.list;
 
     return (
         <Aligner>

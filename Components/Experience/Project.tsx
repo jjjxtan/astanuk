@@ -4,15 +4,7 @@ import { SocialLinks } from "@components/Common/SocialLinks/SocialLinks";
 import { Subtitle } from "@components/Common/Title/Subtitle";
 import classes from "./Experience.module.css";
 
-type ProjectProps = {
-    name: string;
-    description: string;
-    techStack: string;
-    links?: ISocialLink[];
-    key?: number;
-};
-
-export const Project: FC<ProjectProps> = ({
+export const Project: FC<Project> = ({
     name,
     description,
     techStack,

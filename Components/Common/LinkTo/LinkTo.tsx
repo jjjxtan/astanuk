@@ -3,7 +3,7 @@ import SVG from "@public/Assets/SVG";
 import classes from "./LinkTo.module.css";
 
 type Props = {
-    children: ReactElement;
+    children: ReactElement | string;
     href: string;
     target?: string;
     isActive?: boolean;

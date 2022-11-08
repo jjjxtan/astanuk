@@ -5,7 +5,7 @@ import { LinkTo } from "@components/Common/LinkTo/LinkTo";
 import classes from "./Experience.module.css";
 
 type Props = {
-    experience: Experience[] | []
+    experience: Experience[]
 }
 
 export const WorkEx: FC<Props> = ({experience}):ReactElement => {

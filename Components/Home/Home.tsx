@@ -12,15 +12,9 @@ import { homePageSocialLinks } from "@components/Common/SocialLinks/LinkData";
 import classes from "./Home.module.css";
 import data from "./HomeData.json";
 
-type TechList = {
-    name: string;
-    description: string;
-    url: string;
-};
-
 export const Home = (): ReactElement => {
     const header: String[] = data.header;
-    const techList: TechList[] = data.technologies.list;
+    const techList: Technology[] = data.technologies.list;
 
     return (
         <Aligner>

@@ -4,6 +4,15 @@ type GeneralProps = {
     style?: CSSProperties,
     className?: string
 }
+
+/* Technology */
+
+interface Technology{
+    name: string;
+    description: string;
+    url: string;
+};
+
 /* Social Links */
 interface ISocialLink {
     name: string,
@@ -12,7 +21,7 @@ interface ISocialLink {
 }
 
 type SocialLinksProps = {
-    links: LinkFormat[] | [],
+    links: ISocialLink[],
     style?: CSSProperties,
     isActive?: boolean,
     className?: string
@@ -41,4 +50,11 @@ interface Experience{
     description: string,
     techStack: string,
     url: string
+}
+
+interface Project{
+    name: string;
+    description: string;
+    techStack: string;
+    links: ISocialLink[]
 }
