@@ -1,6 +1,6 @@
 {
     "header": [
-        "I’ve been coding since 2017. Currently, I’m pursuing Bachelors in Computer Engineering. Also, I’m interning at NavGurukul. In this journey, I’ve used many programming languages such as Java, JavaScript, Python and getting around with TypeScript lately."
+        "I have one year of professional experience working as an intern. Here are some details about it."
     ],
 
     "experience": [
@@ -8,7 +8,7 @@
             "company": "NavGurukul",
             "role": "Frontend Engineer Intern",
             "duration": "Since July 2022",
-            "description": "I work on the product Meraki, which provides resources to learn programming, Spoken English, etc., to 20000+ students. I primarily work with React and Material UI. I've worked on various features and enhancements of the application, such as the chat feature, which connects students with their mentors and peers, and learning tracks on which students get articles, tutorials, and quizzes.",
+            "description": "I work on the product Meraki, which provides resources to learn programming, Spoken English, etc., to 20000+ students. I primarily work with React and Material UI. I've worked on various features and enhancements of the application, such as the chat feature, which connects students with their mentors and peers, and learning tracks on which students can access articles, tutorials, and quizzes.",
             "techStack": "React.js, Material UI",
             "url": "https://www.navgurukul.org/"
         },
