@@ -1,14 +1,14 @@
 import { ReactElement } from "react";
-import { Aligner } from "@components/Common/Aligner/Aligner";
-import { Footer } from "@components/Common/Footer/Footer";
-import { Navigation } from "@components/Common/Navigation/Navigation";
-import { SocialLinks } from "@components/Common/SocialLinks/SocialLinks";
-import { NameTitle } from "@components/Common/Title/NameTitle";
-import { Title } from "@components/Common/Title/Title";
-import { Paragraph } from "@components/Common/Paragraph/Paragraph";
-import { ThemeToggle } from "@components/Common/ThemeToggle/ThemeToggle";
-import { LinkTo } from "@components/Common/LinkTo/LinkTo";
-import { homePageSocialLinks } from "@components/Common/SocialLinks/LinkData";
+import { Aligner } from "Components/Common/Aligner/Aligner";
+import { Footer } from "Components/Common/Footer/Footer";
+import { Navigation } from "Components/Common/Navigation/Navigation";
+import { SocialLinks } from "Components/Common/SocialLinks/SocialLinks";
+import { NameTitle } from "Components/Common/Title/NameTitle";
+import { Title } from "Components/Common/Title/Title";
+import { Paragraph } from "Components/Common/Paragraph/Paragraph";
+import { ThemeToggle } from "Components/Common/ThemeToggle/ThemeToggle";
+import { LinkTo } from "Components/Common/LinkTo/LinkTo";
+import { homePageSocialLinks } from "Components/Common/SocialLinks/LinkData";
 import classes from "./Home.module.css";
 import data from "./HomeData.json";
 
@@ -55,7 +55,7 @@ export const Home = (): ReactElement => {
                         links={homePageSocialLinks}
                     />
                 </div>
-                <Footer/>
+                <Footer />
             </>
         </Aligner>
     );

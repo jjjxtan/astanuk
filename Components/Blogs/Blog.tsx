@@ -1,9 +1,9 @@
 import { FC, ReactElement } from "react";
-import { Paragraph } from "@components/Common/Paragraph/Paragraph";
-import { Subtitle } from "@components/Common/Title/Subtitle";
-import { Tag } from "@components/Common/Tag/Tag";
+import { Paragraph } from "Components/Common/Paragraph/Paragraph";
+import { Subtitle } from "Components/Common/Title/Subtitle";
+import { Tag } from "Components/Common/Tag/Tag";
 import classes from "./Blogs.module.css";
-import { LinkTo } from "@components/Common/LinkTo/LinkTo";
+import { LinkTo } from "Components/Common/LinkTo/LinkTo";
 
 export const Blog: FC<BlogProps> = ({ blogList }): ReactElement => {
     return (
@@ -15,7 +15,9 @@ export const Blog: FC<BlogProps> = ({ blogList }): ReactElement => {
                             {obj.title}
                         </Subtitle>
                     </LinkTo>
-                    <Paragraph className={classes.paragraph}>{obj.description}</Paragraph>
+                    <Paragraph className={classes.paragraph}>
+                        {obj.description}
+                    </Paragraph>
                     <h6 className={classes.secondaryText}>
                         {obj.published_at}
                         <span className={classes.dot}>⬤</span>
