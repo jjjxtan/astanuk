@@ -8,8 +8,8 @@ import LeetCode from "./leetcode.svg";
 import GFG from "./GeeksforGeeks.svg";
 import Eye from "./eye.svg";
 import HackerRank from "./hackerrank.svg";
-import Moon from "./Moon.svg";
-import Sun from "./Sun.svg";
+import Moon from "./moon.svg";
+import Sun from "./sun.svg";
 import TopRight from "./top-right.svg";
 
 type Props = {
