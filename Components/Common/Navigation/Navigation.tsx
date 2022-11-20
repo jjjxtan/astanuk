@@ -16,10 +16,6 @@ const pages = [
         url: "/blogs",
         name: "Blogs",
     },
-    {
-        url: "/resume.pdf",
-        name: "Resume"
-    }
 ];
 
 export const Navigation: FC = (): ReactElement => {
@@ -42,6 +38,11 @@ export const Navigation: FC = (): ReactElement => {
                             </li>
                         </Link>
                     ))}
+                    <li className={classes.listItem}>
+                        <a
+                            href="/resume.pdf"
+                        >Resume</a>
+                    </li>
                 </ul>
             </nav>
         </>
