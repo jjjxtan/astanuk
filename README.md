@@ -38,7 +38,6 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 Thank you for checking my website. Here is the source code for it.
 
 <img src="https://img.shields.io/badge/License-MIT-blue.svg"/> <img src="https://img.shields.io/badge/Maintained-Yes-green.svg"/>
-![Vercel](https://therealsujitk-vercel-badge.vercel.app/?app={omkathe})
 
 ## 🛠️ Tech Stack
 
