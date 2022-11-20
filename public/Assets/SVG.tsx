@@ -1,3 +1,4 @@
+import { FC, CSSProperties } from "react";
 import LinkedIn from "./linkedin.svg";
 import DevTo from "./dev-to.svg";
 import Instagram from "./instagram.svg";
@@ -11,6 +12,11 @@ import Moon from "./Moon.svg";
 import Sun from "./Sun.svg";
 import TopRight from "./top-right.svg";
 
-const icons: Record<string, string> =  {LinkedIn, DevTo, Instagram, Facebook, GitHub, LeetCode, GFG, Eye, HackerRank, Moon, Sun, TopRight}
+type Props = {
+    className? : string,
+    style?: CSSProperties
+}
+
+const icons: Record<string, FC<Props>> =  {LinkedIn, DevTo, Instagram, Facebook, GitHub, LeetCode, GFG, Eye, HackerRank, Moon, Sun, TopRight}
 
 export default icons;
