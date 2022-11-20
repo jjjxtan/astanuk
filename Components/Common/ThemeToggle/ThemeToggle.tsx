@@ -8,7 +8,7 @@ type Props = {
 }
 
 export const ThemeToggle: FC<Props> = ({style, className}): ReactElement => {
-    const [isDarkTheme, setIsDarkTheme] = useState<boolean | undefined>(undefined);
+  const [isDarkTheme, setIsDarkTheme] = useState<boolean | undefined>(undefined);
   const handleToggle = () => {
         if(isDarkTheme){
             setIsDarkTheme(false);
@@ -63,7 +63,7 @@ export const ThemeToggle: FC<Props> = ({style, className}): ReactElement => {
                   {
                     isDarkTheme ? 
                     <SVG.Moon className={classes.moonIcon}/> : 
-                    <SVG.Sun className={classes.sunIcon}/>
+                    (isDarkTheme === false) && <SVG.Sun className={classes.sunIcon}/>
                   }
               </div>
             </div>
