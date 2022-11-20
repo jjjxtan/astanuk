@@ -1,7 +1,7 @@
 import { FC, ReactElement } from "react";
-import { Paragraph } from "Components/Common/Paragraph/Paragraph";
-import { SocialLinks } from "Components/Common/SocialLinks/SocialLinks";
-import { Subtitle } from "Components/Common/Title/Subtitle";
+import { Paragraph } from "@Components/Common/Paragraph/Paragraph";
+import { SocialLinks } from "@Components/Common/SocialLinks/SocialLinks";
+import { Subtitle } from "@Components/Common/Title/Subtitle";
 import classes from "./Experience.module.css";
 
 export const Project: FC<Project> = ({

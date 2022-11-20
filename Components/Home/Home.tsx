@@ -1,14 +1,14 @@
 import { ReactElement } from "react";
-import { Aligner } from "Components/Common/Aligner/Aligner";
-import { Footer } from "Components/Common/Footer/Footer";
-import { Navigation } from "Components/Common/Navigation/Navigation";
-import { SocialLinks } from "Components/Common/SocialLinks/SocialLinks";
-import { NameTitle } from "Components/Common/Title/NameTitle";
-import { Title } from "Components/Common/Title/Title";
-import { Paragraph } from "Components/Common/Paragraph/Paragraph";
-import { ThemeToggle } from "Components/Common/ThemeToggle/ThemeToggle";
-import { LinkTo } from "Components/Common/LinkTo/LinkTo";
-import { homePageSocialLinks } from "Components/Common/SocialLinks/LinkData";
+import { Aligner } from "@Components/Common/Aligner/Aligner";
+import { Footer } from "@Components/Common/Footer/Footer";
+import { Navigation } from "@Components/Common/Navigation/Navigation";
+import { SocialLinks } from "@Components/Common/SocialLinks/SocialLinks";
+import { NameTitle } from "@Components/Common/Title/NameTitle";
+import { Title } from "@Components/Common/Title/Title";
+import { Paragraph } from "@Components/Common/Paragraph/Paragraph";
+import { ThemeToggle } from "@Components/Common/ThemeToggle/ThemeToggle";
+import { LinkTo } from "@Components/Common/LinkTo/LinkTo";
+import { homePageSocialLinks } from "@Components/Common/SocialLinks/LinkData";
 import classes from "./Home.module.css";
 import data from "./HomeData.json";
 

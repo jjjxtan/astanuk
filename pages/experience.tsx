@@ -1,6 +1,6 @@
 import type { NextPage } from "next";
 import Head from "next/head";
-import { Experience as ExperiencePage } from "Components/Experience/Experience";
+import { Experience as ExperiencePage } from "@Components/Experience/Experience";
 
 const Experience: NextPage = () => {
     return (

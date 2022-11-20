@@ -1,6 +1,6 @@
 import type { NextPage } from "next";
 import Head from "next/head";
-import BlogsPage from "Components/Blogs/Blogs";
+import BlogsPage from "@Components/Blogs/Blogs";
 
 const Blogs: NextPage<BlogProps> = ({ blogList }) => {
     return (

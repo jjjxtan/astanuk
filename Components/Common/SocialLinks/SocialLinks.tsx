@@ -1,5 +1,5 @@
 import React, { FC, ReactElement } from "react";
-import { LinkTo } from "Components/Common/LinkTo/LinkTo";
+import { LinkTo } from "@Components/Common/LinkTo/LinkTo";
 import classes from "./SocialLinks.module.css";
 import SVG from "@public/Assets/SVG";
 

@@ -1,9 +1,9 @@
 import { FC, ReactElement } from "react";
-import { Paragraph } from "Components/Common/Paragraph/Paragraph";
-import { Subtitle } from "Components/Common/Title/Subtitle";
-import { Tag } from "Components/Common/Tag/Tag";
+import { Paragraph } from "@Components/Common/Paragraph/Paragraph";
+import { Subtitle } from "@Components/Common/Title/Subtitle";
+import { Tag } from "@Components/Common/Tag/Tag";
 import classes from "./Blogs.module.css";
-import { LinkTo } from "Components/Common/LinkTo/LinkTo";
+import { LinkTo } from "@Components/Common/LinkTo/LinkTo";
 
 export const Blog: FC<BlogProps> = ({ blogList }): ReactElement => {
     return (
