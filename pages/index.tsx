@@ -23,6 +23,11 @@ const Home: NextPage = () => {
                     name="og:description"
                     content="Software Engineer from India! I speak JavaScript, TypeScript, and Java!"
                 />
+                <meta
+                    name="og:image"
+                    content="public/Assets/index_screenshot.png"
+                />
+                <meta property="og:type" content="website" />
                 <meta name="apple-mobile-web-app-title" content="Om Kathe" />
                 <meta
                     name="apple-mobile-web-app-status-bar-style"

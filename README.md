@@ -55,7 +55,7 @@ Thank you for checking my website. Here is the source code for it.
 
 - As perfect as it can be
 
-![Lighthouse](public/Assets/lighthouse.png)
+![Lighthouse](public/Assets/lighthouse.jpg)
 
 ## License
 
