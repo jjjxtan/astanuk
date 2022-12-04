@@ -25,7 +25,7 @@ const Home: NextPage = () => {
                 />
                 <meta
                     name="og:image"
-                    content="public/Assets/index_screenshot.png"
+                    content="https://www.omkathe.me/og-image.png"
                 />
                 <meta property="og:type" content="website" />
                 <meta name="apple-mobile-web-app-title" content="Om Kathe" />
