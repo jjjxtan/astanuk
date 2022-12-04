@@ -24,7 +24,8 @@ const Home: NextPage = () => {
                     content="Software Engineer from India! I speak JavaScript, TypeScript, and Java!"
                 />
                 <meta
-                    name="og:image"
+                    name="image"
+                    property="og:image"
                     content="https://www.omkathe.me/og-image.png"
                 />
                 <meta property="og:type" content="website" />
