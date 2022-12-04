@@ -33,7 +33,7 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details. -->
 
-# 🚀 omkathe | **portfolio**
+# 🚀 [omkathe.me](https://www.omkathe.me/)
 
 Thank you for checking my website. Here is the source code for it.
 
@@ -50,6 +50,12 @@ Thank you for checking my website. Here is the source code for it.
 - 👀 Statically generated at build time
 - 🌜 Dark Mode
 - ⚡ Blazingly fast
+
+## 💯 Lighthouse Score
+
+- As perfect as it can be
+
+<img src="public/Assets/lighthouse_score.png" >
 
 ## License
 
