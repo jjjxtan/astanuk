@@ -56,7 +56,7 @@ const Content: React.FC<ContentProps> = ({ title, items }) => {
 }
 
 const BoldText = (children: any) => {
-  return <span style={{ fontWeight: 'bold' }}>[children]</span>
+  return <span style={{ fontWeight: 'bold' }}>{children.children}</span>
 }
 
 export default function Home() {
