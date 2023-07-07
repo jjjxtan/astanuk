@@ -1,5 +1,5 @@
 export const generalData = {
-  name: 'Andrei-Ioan Stan',
+  name: 'Andrei Stan',
   avatar: '/avatar.png',
   website: 'https://www.astan.uk',
   about: '',

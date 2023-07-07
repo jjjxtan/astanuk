@@ -62,7 +62,7 @@ const BoldText = (children: any) => {
 export default function Home() {
   return (
     <>
-      <main className='max-w-2xl mx-auto py-20 relative min-h-screen font-light'>
+      <main className='max-w-2xl px-4 mx-auto py-20 relative min-h-screen font-light'>
         <section className='flex items-end'>
           <Image
             alt='Author'
@@ -77,7 +77,7 @@ export default function Home() {
               {generalData.name}
             </h1>
           </div>
-          <div className='flex flex-col text-sm text-slate-900 dark:text-slate-100 place-self-start grow content-end'>
+          <div className='hidden sm:flex flex flex-col text-sm text-slate-900 dark:text-slate-100 place-self-start grow content-end'>
             <a
               href='mailto:me@astan.uk'
               target='_blank'
@@ -161,7 +161,7 @@ export default function Home() {
             })}
           </div>
         </section>
-        <div className='px-6 absolute -left-6 bottom-6'>
+        <div className='px-6 absolute -left-2 bottom-6'>
           <ThemeSwitch />
         </div>
       </main>
